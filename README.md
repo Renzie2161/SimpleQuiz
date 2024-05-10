@@ -4,6 +4,9 @@
 
 This Python program allows users to answer a quiz based on a set of questions stored in a JSON file. Users can customize the quiz by adding their own questions and answers to the `questions.json` file.
 
+> [!INFO]+ Important
+> This program is no longer actively maintained or supported. Feel free to use it as-is, but there may be bugs or issues that have not been addressed. Consider using alternative solutions for similar functionality.
+
 ## Getting Started
 
 1. Clone the repository:
@@ -34,10 +37,6 @@ Suppose you want to add a question about Chinese letters:
     "Translate 我的妈妈说你做什么？": "My mother said what are you doing?",
 }
 ```
-
-## Contributing
-
-Feel free to contribute to this project by adding more questions or improving the code. Fork the repository, make your changes, and submit a pull request.
 
 ## License
 
