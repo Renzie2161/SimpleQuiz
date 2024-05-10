@@ -1,45 +1,45 @@
 ---
 
-# クイズプログラム（廃止済み）
+# Simple Quiz Program
 
-<br>
+This Python program allows users to answer a quiz based on a set of questions stored in a JSON file. Users can customize the quiz by adding their own questions and answers to the `questions.json` file.
 
-**重要：このプログラムは現在、アクティブにメンテナンスされていないため、サポートされていません。そのままご利用いただけますが、修正されていないバグや問題があるかもしれません。同様の機能を持つ代替ソリューションのご利用を検討してください。**
+> [!IMPORTANT]
+> This program is no longer actively maintained or supported. Feel free to use it as-is, but there may be bugs or issues that have not been addressed. Consider using alternative solutions for similar functionality.
 
-このPythonプログラムは、JSONファイルに格納された一連の質問に基づいてクイズに答えることを可能にします。ユーザーは、`questions.json` ファイルに独自の質問と回答を追加することで、クイズをカスタマイズできます。
+## Getting Started
 
-## 開始方法
-
-1. リポジトリをクローンします：
+1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/quiz-program.git
-   cd quiz-program
+   git clone https://github.com/Renzie2161/SimpleQuiz.git
+   cd SimpleQuiz
    ```
 
-2. クイズの質問をカスタマイズします：
-   - `questions.json` ファイルを開きます。
-   - ファイルを編集し、`"質問": "回答"` の形式で新しい質問を追加します。
-   - ファイルを保存します。
+2. Customize the quiz questions:
+   - Open the `questions.json` file.
+   - Modify the file by adding new questions in the format `"Question": "Answer"`.
+   - Save the file.
 
-3. プログラムを実行します：
+3. Run the program:
    ```bash
    python main.py
    ```
 
-4. ターミナルに表示されるクイズの質問に答えます。スペース、カンマ、ピリオドを含む、正確な回答が必要です。
+4. Answer the quiz questions that appear in the terminal. Answers must match exactly, including spaces, symbols, commas, and periods.
 
-## 例
+## Example
 
-中国語の文字に関する質問を追加したいとします：
+Suppose you want to add a question about Japanese letters:
 
 ```json
 {
-    "「太陽」という言葉は中国語で何と言いますか？": "日"
+    "What is the Japanese word for 'sun'?": "日",
+    "Translate '初めまして' to English!": "Nice to meet you",
 }
 ```
 
-## ライセンス
+## License
 
-このプロジェクトは MIT ライセンスのもとで提供されています。詳細については、[LICENSE](LICENSE) ファイルを参照してください。
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
