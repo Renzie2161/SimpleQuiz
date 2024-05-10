@@ -1,45 +1,48 @@
 ---
 
-# Simple Quiz Program
-
-This Python program allows users to answer a quiz based on a set of questions stored in a JSON file. Users can customize the quiz by adding their own questions and answers to the `questions.json` file.
+# クイズプログラム（廃止済み）
 
 > [!IMPORTANT]
-> This program is no longer actively maintained or supported. Feel free to use it as-is, but there may be bugs or issues that have not been addressed. Consider using alternative solutions for similar functionality.
+> 重要：このプログラムは現在、アクティブにメンテナンスされていないため、サポートされていません。そのままご利用いただけますが、修正されていないバグや問題があるかもしれません。同様の機能を持つ代替ソリューションのご利用を検討してください。
 
-## Getting Started
+このPythonプログラムは、JSONファイルに格納された一連の質問に基づいてクイズに答えることを可能にします。ユーザーは、`questions.json` ファイルに独自の質問と回答を追加することで、クイズをカスタマイズできます。
 
-1. Clone the repository:
+## 開始方法
+
+1. リポジトリをクローンします：
    ```bash
-   git clone https://github.com/Renzie2161/SimpleQuiz.git
-   cd SimpleQuiz
+   git clone https://github.com/your-username/quiz-program.git
+   cd quiz-program
    ```
 
-2. Customize the quiz questions:
-   - Open the `questions.json` file.
-   - Modify the file by adding new questions in the format `"Question": "Answer"`.
-   - Save the file.
+2. クイズの質問をカスタマイズします：
+   - `questions.json` ファイルを開きます。
+   - ファイルを編集し、`"質問": "回答"` の形式で新しい質問を追加します。
+   - ファイルを保存します。
 
-3. Run the program:
+3. プログラムを実行します：
    ```bash
    python main.py
    ```
 
-4. Answer the quiz questions that appear in the terminal. Answers must match exactly, including spaces, symbols, commas, and periods.
+4. ターミナルに表示されるクイズの質問に答えます。スペース、カンマ、ピリオドを含む、正確な回答が必要です。
 
-## Example
+## 例
 
-Suppose you want to add a question about Japanese letters:
+中国語の文字に関する質問を追加したいとします：
 
 ```json
 {
-    "What is the Japanese word for 'sun'?": "日",
-    "Translate '初めまして' to English!": "Nice to meet you",
+    "「太陽」という言葉は中国語で何と言いますか？": "日"
 }
 ```
 
-## License
+## 貢献
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+このプロジェクトには、質問を追加したり、コードを改善したりすることで貢献していただけます。リポジトリをフォークし、変更を加え、プルリクエストを送信してください。
+
+## ライセンス
+
+このプロジェクトは MIT ライセンスのもとで提供されています。詳細については、[LICENSE](LICENSE) ファイルを参照してください。
 
 ---
