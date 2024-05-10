@@ -1,10 +1,10 @@
-----
+---
 
 # Simple Quiz Program
 
 This Python program allows users to answer a quiz based on a set of questions stored in a JSON file. Users can customize the quiz by adding their own questions and answers to the `questions.json` file.
 
-> [!NOTE] Important
+> [!IMPORTANT]
 > This program is no longer actively maintained or supported. Feel free to use it as-is, but there may be bugs or issues that have not been addressed. Consider using alternative solutions for similar functionality.
 
 ## Getting Started
