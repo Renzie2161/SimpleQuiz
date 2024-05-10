@@ -1,6 +1,6 @@
 ----
 
-# Quiz Program
+# Simple Quiz Program
 
 This Python program allows users to answer a quiz based on a set of questions stored in a JSON file. Users can customize the quiz by adding their own questions and answers to the `questions.json` file.
 
