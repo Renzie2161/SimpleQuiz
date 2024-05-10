@@ -34,7 +34,7 @@ Suppose you want to add a question about Japanese letters:
 ```json
 {
     "What is the Japanese word for 'sun'?": "日",
-    "Translate '初めまして' to English!": "Nice to meet you",
+    "Translate 初めまして to English!": "Nice to meet you",
 }
 ```
 
