@@ -8,7 +8,7 @@ This Python program allows users to answer a quiz based on a set of questions st
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Renzie2161/quiz-program.git
+   git clone https://github.com/Renzie2161/SimpleQuiz.git
    cd SimpleQuiz
    ```
 
