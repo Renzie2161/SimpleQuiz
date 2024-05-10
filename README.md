@@ -29,7 +29,7 @@ This Python program allows users to answer a quiz based on a set of questions st
 
 ## Example
 
-Suppose you want to add a question about Chinese letters:
+Suppose you want to add a question about Japanese letters:
 
 ```json
 {
