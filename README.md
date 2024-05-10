@@ -33,8 +33,8 @@ Suppose you want to add a question about Chinese letters:
 
 ```json
 {
-    "What is the Chinese word for 'sun'?": "日",
-    "Translate 我的妈妈说你做什么？": "My mother said what are you doing?",
+    "What is the Japanese word for 'sun'?": "日",
+    "Translate 初めまして to English": "Nice to meet you",
 }
 ```
 
